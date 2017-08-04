@@ -1,0 +1,40 @@
+.*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.html {
+    height: 100%;
+    font-size: 100%;
+}
+
+.body {
+    color: white;
+    height: 95vh;
+    padding-bottom: 200px;
+}
+
+
+
+.navbar {
+    position: relative;
+    padding: 0.1vh;
+    background-color: #FFFFFF;
+    z-index: 1;
+    height: 5vh;
+    border: 2px solid black;
+}
+
+.navbar  .logo {
+    position: absolute;
+    left: 1vw;
+    cursor: pointer;
+    font-size: 4.2vh;
+    font-weight: 1200;
+    font-family: Nunito;
+    top:0;
+    bottom:0;
+    margin: auto;
+
+}
