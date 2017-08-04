@@ -23,7 +23,8 @@
     background-color: #FFFFFF;
     z-index: 1;
     height: 5vh;
-    border: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .navbar  .logo {

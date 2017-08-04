@@ -1,3 +1,72 @@
+ .gmap-container {
+   position:relative;
+   float:left;
+   width:79.5%;
+   height: 100%;
+}
+
+ .tools-container {
+   position:relative;
+   float:right;
+   width:19.5%;
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   height: 100%;
+}
+
+.button {
+    background-color: #FFFFFF;
+    border: 1px solid grey;
+    color: black;
+    padding: 7px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.waypoints {
+    background-color: #FFFFFF;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
 #gmap {
    height:100%;
+}
+
+
+#right-panel {
+    font-family: Nunito;
+    position:relative;
+    margin-top: 20px;
+    width: 100%;
+    text-align: left;
+    padding-top: 0;
+}
+
+#right-panel select, #right-panel input {
+
+}
+
+#right-panel select {
+    width: 100%;
+}
+
+#right-panel i {
+    font-size: 12px;
+}
+
+#directions-panel {
+    margin-top: 10px;
+    background-color: #F5F5F5;
+    padding: 10px;
+    overflow: scroll;
+    height: 174px;
 }
